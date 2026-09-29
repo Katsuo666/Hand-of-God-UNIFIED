@@ -1,0 +1,22 @@
+# Dependências da arquitetura modular (core/, modules/, pipelines/, reports/, cli.py).
+
+requests
+feedparser
+dnspython
+python-whois
+geoip2
+psutil
+beautifulsoup4
+colorama
+reportlab
+win10toast ; sys_platform == "win32"
+certifi
+shodan
+phonenumbers
+twilio
+androguard
+playwright  # depois de instalar: python -m playwright install chromium
+
+# Opcional — só necessário para `apk-dynamic` (instrumentação dinâmica via Frida).
+# Exige device/emulador com frida-server rodando; instale manualmente por conta e risco:
+#   pip install frida frida-tools
