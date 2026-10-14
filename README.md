@@ -14,6 +14,13 @@ unificada com menu interativo.
 
 ---
 
+<p align="center">
+  <img src="docs/cli-help.gif" alt="Terminal a executar python cli.py --help e a listar os primeiros subcomandos" width="720">
+</p>
+<p align="center"><sub>Excerto do output real de <code>python cli.py --help</code>.</sub></p>
+
+---
+
 ## Índice
 
 - [Visão Geral](#visão-geral)
